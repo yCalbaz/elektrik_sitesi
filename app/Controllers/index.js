@@ -12,7 +12,7 @@ mongoose.connect('mongodb+srv://kayze_05:kayze12345@kutuphanedb.nwmtbcm.mongodb.
     serverSelectionTimeoutMS: 30000 // Zaman aşımını 30 saniyeye çıkar
 })
 .then(() => {
-    console.log('MongoDB bağlantısı kuruldu');
+    console.log('bağlantısı kuruldu');
 })
 .catch((err) => {
     console.error('MongoDB bağlantısı kurulamadı:', err);
